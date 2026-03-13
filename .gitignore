@@ -1,0 +1,15 @@
+# Node
+node_modules/
+
+# Vite
+frontend/dist/
+frontend/.vite/
+
+# Backend build output
+backend/public/
+
+# logs
+*.log
+
+# OS
+.DS_Store
