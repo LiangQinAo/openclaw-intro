@@ -2,6 +2,7 @@ pipeline {
   agent {
     kubernetes {
       // Keep it simple to avoid Script Approval requirements
+      cloud 'kubernetes'
       label 'oc-intro'
       defaultContainer 'node'
       yaml """
